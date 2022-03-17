@@ -1,0 +1,19 @@
+name: nf.core airrflow
+identifier: WF_46bc28.ca
+description: B-cell and T-cell Adaptive Immune Receptor Repertoire (AIRR) sequencing
+  analysis pipeline using the Immcantation framework
+softwareVersion:
+  versionName: 2.0.0
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: airrflow.wdl
+repoName: nfcore-airrflow
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-airrflow/
+WebSite:
+- URL: https://github.com/nf-core/airrflow
+  name: nf-core/airrflow
